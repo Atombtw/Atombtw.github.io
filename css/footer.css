@@ -1,0 +1,40 @@
+footer {
+  background-color: #000;
+  color: #aaa;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 22px;
+}
+
+footer p.copy {
+  color: #eee;
+  font-size: 16px;
+}
+
+footer a.scroll-top {
+  position: absolute;
+  right: 0;
+  top: -40px;
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  z-index: 999;
+}
+
+footer .addition-links a {
+  color: #eee;
+  font-size: 16px;
+}
+
+footer .addition-links span {
+  display: inline-block;
+  transform: translateY(5px);
+  width: 1px;
+  height: 20px;
+  background-color: #eee;
+}

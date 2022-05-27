@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css">
+    <title>Atom - Atom.com</title>
+  </head>
+  <body>
+    <header class="header-sliding">
+      <nav class="navbar w-100 navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand logo" href="index.html"> Dev Calixell </a>
+          <button class="navbar-toggler menu-toggle-btn collapsed" type="button">
+            <span class="header-nav-icon"></span>
+            <span class="header-nav-icon"></span>
+            <span class="header-nav-icon"></span>
+            </button>
+          <div
+            class="ul-cont collapse navbar-collapse ms-0 ms-lg-auto"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav navbar-right ms-0 ms-lg-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-1">
+                <a class="nav-link" data-scroll="home" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item mx-1">
+                <a class="nav-link" data-scroll="about" href="#about">About</a>
+              </li>
+              <li class="nav-item mx-1">
+                <a class="nav-link" data-scroll="services" href="#services"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item mx-1">
+                <a class="nav-link" data-scroll="resume" href="#resume"
+                  >Resume</a
+                >
+              </li>
+              <li class="nav-item mx-1">
+                <a class="nav-link" data-scroll="portfolio" href="#portfolio"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item mx-1">
+                <a class="nav-link" data-scroll="reviews" href="#reviews"
+                  >Reviews</a
+                >
+              </li>
+              <li class="nav-item mx-1">
+                <a class="nav-link" data-scroll="blog" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item mx-1">
+                <a class="nav-link" data-scroll="contact" href="#contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="home d-flex align-items-center" id="home">
+      <div class="container">
+        <div class="home-text text-center text-md-start">
+          <p class="intro mx-auto mx-md-0">Merhaba</p>
+          <p class="name">Ben <span>Muharrem</span> Rahat</p>
+          <div class="head-text" id="home-text-changer">
+            <h1 class="ah-headline clip is-full-width">
+              <span>I'm</span>
+              <span
+                class="typewrite"
+                data-period="1000"
+                data-type='["Developer","Designer","Freelancer"]'
+              ></span>
+            </h1>
+          </div>
+          <div
+            class="home-social d-flex justify-content-center justify-content-md-start mt-3"
+          >
+            <a href="https://twitter.com/atomtr42"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/atombtw/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/AtomTR.AJR/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.youtube.com/c/calixell"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section-padding" id="about">
+      <div class="container d-flex flex-column flex-md-row">
+        <div
+          class="image wow fadeInLeft"
+          style="visibility: visible;"
+        >
+          <img class="img-fluid w-100" src="img/about_dark.jpg" alt="" />
+          <div class="movable-border">
+            <span></span>
+          </div>
+        </div>
+        <div
+          class="about-content wow fadeInRight"
+          style="visibility: visible;"
+        >
+          <div class="main-heading about-main-heading mx-auto mx-md-0">
+            <h2>Hakkımda</h2>
+            <span class="spann">Ben Atom</span>
+          </div>
+          <p class="about-text">
+            Merhaba ben Muharrem, Türkiye'de yaşayan 18 yaşında Lise son sınıf öğrencisiyim Stajımı Genmot Crankshaft Bilgi İşlem Departmanın'da yapıyorum Hobilerim Satranç oynamak, Bilgisayar oyunları oynamak, Yazılım öğrenip yazmak.
+          </p>
+          <div class="about-info">
+            <ul>
+              <li>
+                <span>İsim:</span>
+                Muharrem Rahat
+              </li>
+              <li>
+                <span>Yaş:</span>
+                18 years old
+              </li>
+              <li>
+                <span>Email:</span>
+                atomtr42@gmail.com
+              </li>
+              <li>
+                <span>Telefon:</span>
+                (+90)507 144 3014
+              </li>
+            </ul>
+          </div>
+          <div class="cv-button">
+            <a class="main-btn" href="#">
+              <i class="fas fa-inbox"></i>
+              Download CV
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section-padding" id="services">
+      <div class="container">
+        <div class="main-heading mx-auto">
+          <h2>Hizmetler</h2>
+          <span>Ne Sunuyorum</span>
+        </div>
+        <div class="services-field mt-4 row">
+          <div
+            class="serv-box mb-2 mt-5 col-12 col-md-6 col-lg-4 wow fadeInUp"
+            style="visibility: visible;"
+          >
+            <div class="serv-cont cursor-pointer-hover p-3 position-relative">
+              <div class="icon"><i class="fas fa-sitemap"></i></div>
+              <h3 class="text-center pt-4 pb-2">Web Geliştirme  </h3>
+              <p class="text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum praesentium quo quasi. Sit, saepe impedit!
+              </p>
+            </div>
+          </div>
+          <div
+            class="serv-box mb-2 mt-5 col-12 col-md-6 col-lg-4 wow fadeInUp"
+            style="visibility: visible;"
+          >
+            <div class="serv-cont cursor-pointer-hover p-3 position-relative">
+              <div class="icon"><i class="fas fa-palette"></i></div>
+              <h3 class="text-center pt-4 pb-2">
+                UI / UX tasarımı</h3>
+              <p class="text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum praesentium quo quasi. Sit, saepe impedit!
+              </p>
+            </div>
+          </div>
+          <div
+            class="serv-box mb-2 mt-5 col-12 col-md-6 col-lg-4 wow fadeInUp"
+            style="visibility: visible;"
+          >
+            <div class="serv-cont cursor-pointer-hover p-3 position-relative">
+              <div class="icon"><i class="fas fa-mobile-alt"></i></div>
+              <h3 class="text-center pt-4 pb-2">Mobil uygulamalar</h3>
+              <p class="text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum praesentium quo quasi. Sit, saepe impedit!
+              </p>
+            </div>
+          </div>
+          <div
+            class="serv-box mb-2 mt-5 col-12 col-md-6 col-lg-4 wow fadeInUp"
+            style="visibility: visible;"
+          >
+            <div class="serv-cont cursor-pointer-hover p-3 position-relative">
+              <div class="icon"><i class="fas fa-shield-alt"></i></div>
+              <h3 class="text-center pt-4 pb-2">Siber güvenlik</h3>
+              <p class="text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum praesentium quo quasi. Sit, saepe impedit!
+              </p>
+            </div>
+          </div>
+          <div
+            class="serv-box mb-2 mt-5 col-12 col-md-6 col-lg-4 wow fadeInUp"
+            style="visibility: visible;"
+          >
+            <div class="serv-cont cursor-pointer-hover p-3 position-relative">
+              <div class="icon"><i class="fas fa-database"></i></div>
+              <h3 class="text-center pt-4 pb-2">Veritabanı Analizi</h3>
+              <p class="text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum praesentium quo quasi. Sit, saepe impedit!
+              </p>
+            </div>
+          </div>
+          <div
+            class="serv-box mb-2 mt-5 col-12 col-md-6 col-lg-4 wow fadeInUp"
+            style="visibility: visible;"
+          >
+            <div class="serv-cont cursor-pointer-hover p-3 position-relative">
+              <div class="icon"><i class="fas fa-mail-bulk"></i></div>
+              <h3 class="text-center pt-4 pb-2">Pazarlama</h3>
+              <p class="text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum praesentium quo quasi. Sit, saepe impedit!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="more-services text-center mt-4 pt-2">
+          <a href="#" class="main-btn">Daha fazla hizmet</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="resume section-padding" id="resume">
+      <div class="container">
+        <div class="main-heading mx-auto">
+          <h2>özgeçmiş</h2>
+          <span>Nitelikler</span>
+        </div>
+        <div class="resume-field mt-5 row">
+          <div class="experience-box mb-3 mb-lg-0 col-12 col-lg-6">
+            <div class="experience-content resume-content">
+              <div
+                class="wow bounceIn res-head mb-3 mb-sm-5 d-flex justify-content-sm-start justify-content-center align-items-center"
+              >
+                <i class="fas fa-laptop-code"></i>
+                <h3 class="mb-0">
+                  Tecrübelerim</h3>
+              </div>
+              <div class="wow fadeInLeft res-text">
+                <span class="res-circle"></span>
+                <h4>Web Geliştirme</h4>
+                <span class="date">2009-2013</span>
+                <p class="info">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem
+                </p>
+              </div>
+              <div class="wow fadeInLeft res-text">
+                <span class="res-circle"></span>
+                <h4>Mobil Geliştirme</h4>
+                <span class="date">2014-2018</span>
+                <p class="info">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem
+                </p>
+              </div>
+              <div class="wow fadeInLeft res-text">
+                <span class="res-circle"></span>
+                <h4>IT Geliştirme</h4>
+                <span class="date">2019-2021</span>
+                <p class="info">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="education-box col-12 col-lg-6">
+            <div class="education-content resume-content">
+              <div
+                class="wow bounceIn res-head mb-3 mb-sm-5 d-flex justify-content-sm-start justify-content-center align-items-center"
+              >
+                <i class="fas fa-graduation-cap"></i>
+                <h3 class="mb-0">Eğitimim</h3>
+              </div>
+              <div class="wow fadeInLeft res-text">
+                <span class="res-circle"></span>
+                <h4>Bilgisayar Bilimleri Lisans Derecesi</h4>
+                <span class="date">2008</span>
+                <p class="info">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem
+                </p>
+              </div>
+              <div class="wow fadeInLeft res-text">
+                <span class="res-circle"></span>
+                <h4>Mobile development online certificate</h4>
+                <span class="date">2013</span>
+                <p class="info">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem
+                </p>
+              </div>
+              <div class="wow fadeInLeft res-text">
+                <span class="res-circle"></span>
+                <h4>Siber Güvenlik çevrimiçi sertifikası</h4>
+                <span class="date">2018</span>
+                <p class="info">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section-padding" id="skills">
+      <div class="container">
+        <div class="main-heading mx-auto">
+          <h2>BECERİLER</h2>
+          <span>Benim Yeteneklerim</span>
+        </div>
+        <div class="skill-field mt-5 row">
+          <div class="skill-box col-12 col-lg-6">
+            <div class="skill-piece">
+              <p class="name mb-2">HTML</p>
+              <div class="skill-loader">
+                <span
+                  data-progress="80%"
+                  class="loader-liquid"
+                  style="width: 80%"
+                ></span>
+                <span class="loader-value" style="left: 80%">80%</span>
+              </div>
+            </div>
+            <div class="skill-piece">
+              <p class="name mb-2">CSS</p>
+              <div class="skill-loader">
+                <span
+                  data-progress="85%"
+                  class="loader-liquid"
+                  style="width: 85%"
+                ></span>
+                <span class="loader-value" style="left: 85%">85%</span>
+              </div>
+            </div>
+            <div class="skill-piece">
+              <p class="name mb-2">CS</p>
+              <div class="skill-loader">
+                <span
+                  data-progress="70%"
+                  class="loader-liquid"
+                  style="width: 70%"
+                ></span>
+                <span class="loader-value" style="left: 70%">70%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-box col-12 col-lg-6">
+            <div class="skill-piece">
+              <p class="name mb-2">Bootstrap</p>
+              <div class="skill-loader">
+                <span
+                  data-progress="75%"
+                  class="loader-liquid"
+                  style="width: 75%"
+                ></span>
+                <span class="loader-value" style="left: 75%">75%</span>
+              </div>
+            </div>
+            <div class="skill-piece">
+              <p class="name mb-2">PHP</p>
+              <div class="skill-loader">
+                <span
+                  data-progress="50%"
+                  class="loader-liquid"
+                  style="width: 50%"
+                ></span>
+                <span class="loader-value" style="left: 50%">50%</span>
+              </div>
+            </div>
+            <div class="skill-piece">
+              <p class="name mb-2">Photoshop</p>
+              <div class="skill-loader">
+                <span
+                  data-progress="90%"
+                  class="loader-liquid"
+                  style="width: 90%"
+                ></span>
+                <span class="loader-value" style="left: 90%">90%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio section-padding" id="portfolio">
+      <div class="container">
+        <div class="main-heading mx-auto">
+          <h2>portföy</h2>
+          <span>Projelerimiz</span>
+        </div>
+        <div class="port-field row mt-5">
+          <div class="mix design prog-box col-12 col-md-6 col-lg-4 mb-4 mt-4">
+            <a href="img/portfolio1.jpg">
+              <img
+                class="img-fluid w-100 d-block atom"
+                src="img/portfolio1.jpg"
+                alt="portfolio"
+              />
+            </a>
+          </div>
+          <div
+            class="mix development prog-box col-12 col-md-6 col-lg-4 mb-4 mt-4"
+          >
+            <a href="img/portfolio2.jpg">
+              <img
+                class="img-fluid w-100 d-block atom"
+                src="img/portfolio2.jpg"
+                alt="portfolio"
+              />
+            </a>
+          </div>
+          <div
+            class="mix development prog-box col-12 col-md-6 col-lg-4 mb-4 mt-4"
+          >
+            <a href="img/portfolio3.jpg">
+              <img
+                class="img-fluid w-100 d-block atom"
+                src="img/portfolio3.jpg"
+                alt="portfolio"
+              />
+            </a>
+          </div>
+          <div class="mix marketing prog-box col-12 col-md-6 col-lg-4 mb-4">
+            <a href="img/portfolio4.jpg">
+              <img
+                class="img-fluid w-100 d-block atom"
+                src="img/portfolio4.jpg"
+                alt="portfolio"
+              />
+            </a>
+          </div>
+          <div class="mix marketing prog-box col-12 col-md-6 col-lg-4 mb-4">
+            <a href="img/portfolio5.jpg">
+              <img
+                class="img-fluid w-100 d-block atom"
+                src="img/portfolio5.jpg"
+                alt="portfolio"
+              />
+            </a>
+          </div>
+          <div class="mix marketing prog-box col-12 col-md-6 col-lg-4 mb-4">
+            <a href="img/portfolio6.jpg">
+              <img
+                class="img-fluid w-100 d-block atom"
+                src="img/portfolio6.jpg"
+                alt="portfolio"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="more-projects text-center mt-4 pt-2">
+          <a href="#" class="main-btn">Daha Fazla Proje</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="counter pt-5 pb-5" id="counter">
+      <div class="container">
+        <div class="row counter-area">
+          <div class="wow fadeInLeft col-12 col-lg-3 col-md-6 text-center">
+            <i class="far fa-hand-rock d-block mb-2"></i>
+            <h1>10</h1>
+            <h4>Yılların Deneyimi</h4>
+          </div>
+          <div class="wow fadeInLeft col-12 col-lg-3 col-md-6 text-center">
+            <i class="far fa-handshake d-block mb-2"></i>
+            <h1>173</h1>
+            <h4>Başarılı Projeler</h4>
+          </div>
+          <div class="wow fadeInLeft col-12 col-lg-3 col-md-6 text-center">
+            <i class="far fa-smile-beam d-block mb-2"></i>
+            <h1>261</h1>
+            <h4>Mutlu Müşteriler</h4>
+          </div>
+          <div class="wow fadeInLeft col-12 col-lg-3 col-md-6 text-center">
+            <i class="fas fa-award d-block mb-2"></i>
+            <h1>22</h1>
+            <h4>Alınan Ödüller</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews section-padding" id="reviews">
+      <div class="container">
+        <div class="main-heading mx-auto">
+          <h2>YORUMLAR</h2>
+          <span>Geribildirimler</span>
+        </div>
+        <div
+          class="review-field row justify-content-between align-items-center"
+        >
+          <div
+            class="wow bounceInUp review-swiper-image col-3 swiper-cards swiper-3d swiper-initialized swiper-horizontal swiper-pointer-events ayarli"
+          >
+            <div class="swiper-wrapper">
+              <div
+                class="swiper-slide px-0 swiper-slide-visible swiper-slide-active"
+              >
+                <img
+                  class="img-fluid w-100 image-ayar"
+                  src="img/Atom2.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="review-swiper-text position-relative col-12 col-lg-8 swiper-fade swiper-initialized swiper-horizontal swiper-pointer-events"
+          >
+            <div class="client-info">
+              <div class="review-head py-3">
+                <div
+                  class="rev-box d-flex align-items-center justify-content-lg-start justify-content-center"
+                >
+                  <i class="fas fa-quote-left pe-3 pt-2"></i>
+                  <div class="review-details">
+                    <h4 class="client-name mb-2">Atom</h4>
+                    <div class="rating d-flex">
+                      <i class="mx-1 fas fa-star"></i>
+                      <i class="mx-1 fas fa-star"></i>
+                      <i class="mx-1 fas fa-star"></i>
+                      <i class="mx-1 fas fa-star"></i>
+                      <i class="mx-1 fas fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <q
+                  >The European languages are members of the same family. Their
+                  separate existence is a myth. For science, music, sport, etc,
+                  Europe uses the same vocabulary. The languages only differ
+                  in</q
+                >
+                <div class="review-dates d-flex justify-content-between mt-3">
+                  <div class="client-project">
+                    <span>Proje Tipi: </span>
+                    Mobil uygulama
+                  </div>
+                  <p class="date">
+                    <span>Alma Tarihi: </span>
+                    17 Eylül 2020
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog section-padding" id="blog">
+      <div class="container">
+        <div class="main-heading mx-auto">
+          <h2 class="">Blog</h2>
+          <span>Haber Oku</span>
+        </div>
+        <div class="blog-field pt-4 row">
+          <div class="wow fadeInDown blog-box mb-4 col-12 col-md-6 col-lg-4">
+            <div class="blog-content">
+              <div
+                class="show-pop image d-block position-relative overflow-hidden"
+              >
+                <img
+                  class="img-fluid w-100 d-block"
+                  src="img/blog1.jpg"
+                  alt=""
+                />
+                <span class="blog-title">Web</span>
+              </div>
+              <h3 class="blog-head my-2 px-2">Web Geliştirme</h3>
+              <p class="blog-text mb-3 px-2">
+                The quick, brown fox jumps over a lazy dog. DJs flock by when
+                MTV ax quiz prog. Junk MTV quiz
+              </p>
+              <hr class="my-0" />
+              <div
+                class="blog-links d-flex justify-content-between align-items-center p-2"
+              >
+                <div class="blog-rating">
+                  <a class="blog-like ms-1 me-3" href="#">173</a>
+                  <a class="blog-comment" href="#">34</a>
+                </div>
+                <div class="more">
+                  <a class="show-pop" href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wow fadeInDown blog-box mb-4 col-12 col-md-6 col-lg-4">
+            <div class="blog-content">
+              <div
+                class="show-pop image d-block position-relative overflow-hidden"
+              >
+                <img
+                  class="img-fluid w-100 d-block"
+                  src="img/blog2.jpg"
+                  alt=""
+                />
+                <span class="blog-title">Mobil</span>
+              </div>
+              <h3 class="blog-head my-2 px-2">Flutter teknolojisi</h3>
+              <p class="blog-text mb-3 px-2">
+                The quick, brown fox jumps over a lazy dog. DJs flock by when
+                MTV ax quiz prog. Junk MTV quiz
+              </p>
+              <hr class="my-0" />
+              <div
+                class="blog-links d-flex justify-content-between align-items-center p-2"
+              >
+                <div class="blog-rating">
+                  <a class="blog-like ms-1 me-3" href="#">173</a>
+                  <a class="blog-comment" href="#">34</a>
+                </div>
+                <div class="more">
+                  <a class="show-pop" href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wow fadeInDown blog-box mb-4 col-12 col-md-6 col-lg-4">
+            <div class="blog-content">
+              <div
+                class="show-pop image d-block position-relative overflow-hidden"
+              >
+                <img
+                  class="img-fluid w-100 d-block"
+                  src="img/blog3.jpg"
+                  alt=""
+                />
+                <span class="blog-title">Tasarım</span>
+              </div>
+              <h3 class="blog-head my-2 px-2">Çekici Tasarımlar</h3>
+              <p class="blog-text mb-3 px-2">
+                The quick, brown fox jumps over a lazy dog. DJs flock by when
+                MTV ax quiz prog. Junk MTV quiz
+              </p>
+              <hr class="my-0" />
+              <div
+                class="blog-links d-flex justify-content-between align-items-center p-2"
+              >
+                <div class="blog-rating">
+                  <a class="blog-like ms-1 me-3" href="#">173</a>
+                  <a class="blog-comment" href="#">34</a>
+                </div>
+                <div class="more">
+                  <a class="show-pop" href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="more-blogs text-center mt-4 pt-2">
+          <a href="#" class="main-btn">Daha Fazla Blog</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-padding" id="contact">
+      <div class="container">
+        <div class="main-heading mx-auto">
+          <h2>İLETİŞİM</h2>
+          <span>Mesaj Gönder</span>
+        </div>
+        <div class="contact-field my-4 row flex-wrap-reverse">
+          <div class="contact-info-field p-2 col-12 col-md-4">
+            <div class="location">
+              <i class="fas fa-street-view"></i>
+              <h5>Konum</h5>
+              <address class="mb-0">205 Fairview St. Rochester, NY 14606</address>
+                </a>
+              </h5>
+            </div>
+            <div class="email">
+              <i class="far fa-envelope"></i>
+              <h5>Email</h5>
+              <a href="mailto:atomtr42@gmail.com">atomtr42@gmail.com</a>
+              </div>
+              <div class="phone">
+                <i class="fas fa-phone-alt"></i>
+                <h5>Telefon</h5>
+                <a href="tel:#">(+90) 507 144 30 14</a>
+                </div>
+                <div class="social">
+                  <i class="fas fa-share-alt"></i>
+                  <h5>Sosyal Bağlantılar</h5>
+                  <div class="social-links pt-2 d-flex align-items-center justify-content-center">
+                  <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
+                  <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
+                  <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                  </div>
+          </div>
+          <div class="contact-form-field p-4 col-12 col-md-8">
+            <form class="contact-form" action="">
+              <div class="name mb-3">
+                <input class="w-100 p-2" type="text" name="name" required="" placeholder="İsim">
+                </div>
+                <div class="email mb-3">
+                  <input class="w-100 p-2" type="email" name="email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required="" placeholder="Email">
+                  </div>
+                  <div class="message mb-3">
+                    <textarea class="w-100 p-2" name="message" required="" placeholder="Mesaj"></textarea>
+                    </div>
+                    <button type="submit">Mesaj Gönder</button>
+                    <p class="mt-3 contact-message"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container position-relative d-flex flex-column flex-md-row align-items-center justify-content-between">
+        <p class="copy mb-2 mb-md-0">© 2021 Tona , All Right Reserved</p>
+        <div class="addition-links">
+          <a href="#">Privacy Policy</a>
+          <span></span>
+          <a href="#">Terms &amp; Conditions</a>
+        </div>
+        <a class="scroll-top" href="#">
+          <i class="fas fa-angle-up"></i>
+          </a>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/type-writer.js"></script>
+  </body>
+</html>
