@@ -1,0 +1,358 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sicak-kahveler {
+  height: 100vh;
+  position: relative;
+  background: url(img/Sıcak_kahve.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.sicak-kahveler::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+.soguk-kahveler {
+  height: 100vh;
+  position: relative;
+  background: url(img/soguk-kahve.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  z-index: 0;
+}
+
+.soguk-kahveler::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+.turk-kahve {
+  height: 100vh;
+  position: relative;
+  background: url(img/turk-kahve.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.turk-kahve::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+.sicak-icicekler {
+  height: 100vh;
+  position: relative;
+  background: url(img/sıcak-icicekler.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  z-index: 0;
+}
+
+.sicak-icicekler::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+.soguk-icicekler {
+  height: 100vh;
+  position: relative;
+  background: url(img/soguk-icicek.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.soguk-icicekler::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+.frozen {
+  height: 100vh;
+  position: relative;
+  background: url(img/frozen.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.frozen::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+.milkshake {
+  height: 100vh;
+  position: relative;
+  background: url(img/milkshake.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.milkshake::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+.redbull {
+  height: 100vh;
+  position: relative;
+  background: url(img/redbull.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.redbull::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+.mocktail {
+  height: 100vh;
+  position: relative;
+  background: url(img/cocktail.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 25%;
+  z-index: 0;
+}
+
+.mocktail::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+.atistirmalik {
+  height: 100vh;
+  position: relative;
+  background: url(img/atiştirmalik.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 25%;
+  z-index: 0;
+}
+
+.atistirmalik::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+.tatlılar {
+  height: 100vh;
+  position: relative;
+  background: url(img/tatlı.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.tatlılar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+.dondurma {
+  height: 100vh;
+  position: relative;
+  background: url(img/dondurma.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.dondurma::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+.logo {
+  width: 300px;
+  height: 75px;
+  padding-top: 5px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.title h1 {
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.3);
+  line-height: 0px;
+  padding: 6px;
+}
+
+.bir {
+  width: 100%;
+}
+
+.iki {
+  margin-top: 60px;
+  display: flex;
+}
+
+.iki ul {
+  padding-left: 20px;
+}
+
+.padding-ayar1 {
+  padding-left: 0;
+}
+
+.title ul,
+li {
+  list-style: none;
+  font-weight: 400;
+  padding-bottom: 5px;
+  color: #fff;
+}
+
+.h1-ilk {
+  font-size: 50px;
+  margin-left: 10px;
+}
+
+.h1-son {
+  font-size: 50px;
+  margin-left: 10px;
+}
+
+.sosyal-medya {
+  position: absolute;
+  padding-bottom: 80px;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+}
+
+.sosyal-medya p {
+  font-size: 10px;
+}
+
+.sosyal-medya i {
+  color: #fff;
+  padding-right: 20px;
+}
+
+.katagoriler {
+  position: absolute;
+  top: 25%;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+}
+
+.main-btn {
+  display: inline-block;
+  padding: 10px 15px;
+  color: #fff !important;
+  text-decoration: none;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid #fff;
+  text-align: center;
+}
+
+.active {
+  color: black !important;
+  background-color: #fff;
+}
