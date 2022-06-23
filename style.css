@@ -316,7 +316,7 @@ li {
 
 .sosyal-medya {
   position: absolute;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   color: #fff;
   width: 100%;
   text-align: center;
@@ -334,7 +334,7 @@ li {
 
 .katagoriler {
   position: absolute;
-  top: 25%;
+  top: 20%;
   right: 0;
   display: flex;
   flex-direction: column;
