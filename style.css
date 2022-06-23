@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Lato", sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 .sicak-kahveler {
@@ -284,7 +284,7 @@ img {
 }
 
 .iki {
-  margin-top: 60px;
+  margin-top: 10px;
   display: flex;
 }
 
@@ -305,18 +305,18 @@ li {
 }
 
 .h1-ilk {
-  font-size: 50px;
+  font-size: 40px;
   margin-left: 10px;
 }
 
 .h1-son {
-  font-size: 50px;
+  font-size: 40px;
   margin-left: 10px;
 }
 
 .sosyal-medya {
   position: absolute;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
   color: #fff;
   width: 100%;
   text-align: center;
@@ -356,3 +356,11 @@ li {
   color: black !important;
   background-color: #fff;
 }
+/* 
+.milk {
+  font-size: 40px;
+}
+
+.redb h1 {
+  font-size: 40px;
+} */
