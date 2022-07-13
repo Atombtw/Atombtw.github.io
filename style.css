@@ -7,10 +7,10 @@ body {
 .sicak-kahveler {
   height: 100vh;
   position: relative;
-  background: url(img/Sıcak_kahve.jpg);
+  background: url(img/pizza.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: left;
   z-index: 0;
 }
 
@@ -28,10 +28,10 @@ body {
 .soguk-kahveler {
   height: 100vh;
   position: relative;
-  background: url(img/soguk-kahve.jpg);
+  background: url(img/tavuk.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left;
+  background-position: 50%;
   z-index: 0;
 }
 
@@ -49,10 +49,10 @@ body {
 .turk-kahve {
   height: 100vh;
   position: relative;
-  background: url(img/turk-kahve.webp);
+  background: url(img/kumru.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: 25%;
   z-index: 0;
 }
 
@@ -70,10 +70,10 @@ body {
 .sicak-icicekler {
   height: 100vh;
   position: relative;
-  background: url(img/sıcak-icicekler.jpg);
+  background: url(img/hamburger.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left;
+  background-position: 30%;
   z-index: 0;
 }
 
@@ -91,10 +91,10 @@ body {
 .soguk-icicekler {
   height: 100vh;
   position: relative;
-  background: url(img/soguk-icicek.jpg);
+  background: url(img/çıtır.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: left;
   z-index: 0;
 }
 
@@ -112,10 +112,10 @@ body {
 .frozen {
   height: 100vh;
   position: relative;
-  background: url(img/frozen.jpg);
+  background: url(img/donutt.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: left;
   z-index: 0;
 }
 
@@ -133,7 +133,7 @@ body {
 .milkshake {
   height: 100vh;
   position: relative;
-  background: url(img/milkshake.jpg);
+  background: url(img/kola.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -154,10 +154,10 @@ body {
 .redbull {
   height: 100vh;
   position: relative;
-  background: url(img/redbull.avif);
+  background: url(img/pizza.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: left;
   z-index: 0;
 }
 
@@ -284,7 +284,8 @@ img {
 }
 
 .iki {
-  margin-top: 10px;
+  padding-top: 10px;
+  margin-top: 15px;
   display: flex;
 }
 
@@ -305,18 +306,20 @@ li {
 }
 
 .h1-ilk {
+  margin-top: 120px;
   font-size: 40px;
   margin-left: 10px;
 }
 
 .h1-son {
+  margin-top: 30px;
   font-size: 40px;
   margin-left: 10px;
 }
 
 .sosyal-medya {
   position: absolute;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   color: #fff;
   width: 100%;
   text-align: center;
@@ -333,15 +336,12 @@ li {
 }
 
 .katagoriler {
-  position: absolute;
-  top: 20%;
-  right: 0;
-  display: flex;
-  flex-direction: column;
+  width: 100%;
   font-size: 10px;
 }
 
 .main-btn {
+  width: 100%;
   display: inline-block;
   padding: 10px 15px;
   color: #fff !important;
@@ -356,11 +356,98 @@ li {
   color: black !important;
   background-color: #fff;
 }
-/* 
-.milk {
-  font-size: 40px;
+
+.menu-toggle-btn {
+  position: relative;
+  width: 35px;
+  height: 30px;
+  padding: 0;
+  background-color: none;
+  border: none;
 }
 
-.redb h1 {
+@media (max-width: 991px) {
+  .ul-cont ul {
+    max-height: 70vh;
+    overflow: auto;
+  }
+}
+
+.menu-toggle-btn span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  border-radius: 50px;
+  background-color: #fff;
+  transition: transform 0.4s ease-out;
+}
+
+.menu-toggle-btn.collapsed span:nth-child(1) {
+  top: 5px;
+}
+
+.menu-toggle-btn.collapsed span:nth-child(2) {
+  top: calc(50% - 1px);
+}
+
+.menu-toggle-btn.collapsed span:nth-child(3) {
+  top: calc(100% - 7px);
+}
+
+.menu-toggle-btn:not(.collapsed) span:nth-child(1) {
+  top: calc(50% - 1px);
+  transform: rotate(135deg);
+}
+
+.menu-toggle-btn:not(.collapsed) span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle-btn:not(.collapsed) span:nth-child(3) {
+  top: calc(50% - 1px);
+  transform: rotate(-135deg);
+}
+
+header nav .navbar-brand {
+  color: #fff;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -1px;
   font-size: 40px;
-} */
+  line-height: 60px;
+  transition: 0.4s ease;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #111;
+  width: 100%;
+  z-index: 1000;
+  transition: padding 0.5s ease-out;
+  box-shadow: 0 0.125rem 0.25rem #ffffff20;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+header nav ul li a.nav-link {
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+}
+
+.navbar-brand:hover {
+  color: #fff !important;
+}
