@@ -7,7 +7,7 @@ body {
 .sicak-kahveler {
   height: 120vh;
   position: relative;
-  background: url(img/pizza.webp);
+  /* background: url(img/pizza.webp); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -28,7 +28,7 @@ body {
 .soguk-kahveler {
   height: 100vh;
   position: relative;
-  background: url(img/tavuk.webp);
+  /* background: url(img/tavuk.webp); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -49,7 +49,7 @@ body {
 .turk-kahve {
   height: 100vh;
   position: relative;
-  background: url(img/kumru.jpeg);
+  /* background: url(img/kumru.jpeg); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 25%;
@@ -70,7 +70,7 @@ body {
 .sicak-icicekler {
   height: 100vh;
   position: relative;
-  background: url(img/hamburger.webp);
+  /* background: url(img/hamburger.webp); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 30%;
@@ -91,7 +91,7 @@ body {
 .soguk-icicekler {
   height: 100vh;
   position: relative;
-  background: url(img/çıtır.webp);
+  /* background: url(img/çıtır.webp); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -112,7 +112,7 @@ body {
 .frozen {
   height: 100vh;
   position: relative;
-  background: url(img/donutt.jpg);
+  /* background: url(img/donutt.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -133,7 +133,7 @@ body {
 .milkshake {
   height: 100vh;
   position: relative;
-  background: url(img/kola.webp);
+  /* background: url(img/kola.webp); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -154,7 +154,7 @@ body {
 .redbull {
   height: 100vh;
   position: relative;
-  background: url(img/pizza.webp);
+  /* background: url(img/pizza.webp); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -175,7 +175,7 @@ body {
 .mocktail {
   height: 100vh;
   position: relative;
-  background: url(img/cocktail.webp);
+  /* background: url(img/cocktail.webp); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 25%;
@@ -196,7 +196,7 @@ body {
 .atistirmalik {
   height: 100vh;
   position: relative;
-  background: url(img/atiştirmalik.webp);
+  /* background: url(img/atiştirmalik.webp); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 25%;
@@ -217,7 +217,7 @@ body {
 .tatlılar {
   height: 100vh;
   position: relative;
-  background: url(img/tatlı.jpg);
+  /* background: url(img/tatlı.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -238,7 +238,7 @@ body {
 .dondurma {
   height: 100vh;
   position: relative;
-  background: url(img/dondurma.jpg);
+  /* background: url(img/dondurma.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
